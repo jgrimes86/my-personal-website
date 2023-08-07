@@ -1,3 +1,17 @@
 body {
-    background: blue;
+    background: grey;
 }
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    overflow-x: auto;
+    background-color: white;
+    border-bottom: 1px solid;
+}
+nav #navList {
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }

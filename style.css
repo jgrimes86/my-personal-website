@@ -1,10 +1,10 @@
 body {
-    background: grey;
+    background: #3C55E0;
 }
 nav {
-    position: fixed;
-    top: 0;
-    width: 100%;
+    position: relative;
+    top: 0px;
+    right: 0px;
     overflow-x: auto;
     background-color: white;
     border-bottom: 1px solid;
@@ -12,6 +12,9 @@ nav {
 nav #navList {
         list-style: none;
         display: flex;
-        flex-direction: row;
-        justify-content: space-around;
+        flex-direction: column;
+        justify-content: center;
     }
+section.container {
+    background-color: #E0C672;
+}

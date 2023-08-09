@@ -1,13 +1,14 @@
 body {
     background: #3C55E0;
+    width: 800px;
 }
 nav {
-    position: relative;
+    position: fixed;
     top: 0px;
     right: 0px;
-    overflow-x: auto;
-    background-color: white;
+    background-color: #E0C672;
     border-bottom: 1px solid;
+    width: 150 px;
 }
 nav #navList {
         list-style: none;
@@ -15,6 +16,11 @@ nav #navList {
         flex-direction: column;
         justify-content: center;
     }
-section.container {
+div {
+    margin: auto;
+    width: 60%;
+    position: relative;
+}
+    section.container {
     background-color: #E0C672;
 }

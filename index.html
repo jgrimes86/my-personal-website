@@ -1,31 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="style.css" /> <!--links CSS style sheet to html-->
         <title>James R Grimes III</title>
     </head>
-    
     <body>
-        <div>
-            <nav>
-                <ul id="navList">
-                    <li>
-                        <a href="#About">About</a>
-                    </li>
-                    <li>
-                        <a href="#Projects">Projects</a>
-                    </li>
-                    <li>
-                        <a href="#Contact">Contact</a>
-                    </li>
-                </ul>
-            </nav>
-            <section class="container">
+        <script src="script.js"></script> <!--links JavaScript to html-->
+        <div id="container">
+            <section class="item"> <!--page heading with photo and name-->
                 <img src="" alt="Jim Grimes">
                 <h2>Hello, my name is</h2>
                 <h1>Jim Grimes</h1>
             </section>
-            <section class="container">
+            <section class="item"> <!--summary of education and experience-->
                 <h3 id="About">About Me</h3>
                 <ol>
                     <li>Graduated from Rutgers University, New Brunswick where I majored in political science.</li>
@@ -34,12 +21,15 @@
                     <li>Practiced law in New Jersey as an associate attorney focused on real estate, land use, and estate planning.</li>
                 </ol>
             </section>
-            <section class="container">
+            <section class="item"> <!--collapsible links to projects-->
                 <h3 id="Projects">Projects</h3>
-                <a href="./Link Placeholders/Project1Placeholder.html">Project 1</a>
+                <button type="button" class="collapsible">Project 1</button>
+                    <div class="content">
+                        <a href="./Link Placeholders/Project1Placeholder.html"><img src="./Photos/clipart house.jpg" alt="Project 1"></a>
+                    </div>
                 <a href="./Link Placeholders/Project2Placeholder.html">Project 2</a>
             </section>
-            <section class="container">
+            <section class="item"> <!--contact info and link to LinkedIn-->
                 <h3 id="Contact">Contact</h3>
                 <p>email: jimgrimes86@gmail.com</p>
                 <a href="./Link Placeholders/LinkedInPlaceholder.html">LinkedIn</a>

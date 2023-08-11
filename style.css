@@ -1,11 +1,20 @@
-body {
-    background: #3C55E0;
-    width: 800px;
-}
-#container {
-    background-color: grey;
-}
-.item {
-    background-color: #E0C672;
+.collapsible {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
 }
 
+.active, .collapsible:hover {
+  background-color: #ccc;
+}
+
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;

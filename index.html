@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <link rel="stylesheet" href="style.css" /> <!--links CSS style sheet to html-->
+        <link rel="stylesheet" href="style.css" />
         <title>James R Grimes III</title>
     </head>
     <body>
         <div id="container">
-            <section class="item" id="intro"> <!--profile picture-->
+            <section class="item" id="intro">
                 <div>
                     <img src="./Photos/profile pic placeholder.png" alt="Jim Grimes">
                 </div>
@@ -15,24 +15,30 @@
                     <h1>Jim Grimes</h1>
                 </div>
             </section>
-            <section class="item"> <!--summary of education and experience-->
+            <section class="item">
                 <p>I graduated from Rutgers University, New Brunswick where I majored in political science.  Afterward, I obtained a J.D. from Rutgers Law School – Newark, where I graduated in the top 10% of my graduating class.</p>
                 <p>I worked as a law clerk in the Superior Court of New Jersey, Appellate Division.  Then I practiced law in New Jersey as an associate attorney focused on real estate, land use, and estate planning.</p>
             </section>
             <section class="item" id="linksSection">
-                <div> <!--collapsible links to projects-->
-                    <h3 id="Projects">Projects</h3>
-                    <button type="button" class="collapsible">Project 1</button>
-                    <div class="content">
-                        Placeholder text for Project 1
-                    </div>
-                    <button type="button" class="collapsible">Project 2</button>
-                    <div class="content">
-                        Placeholder text for project 2.
+                <div style="flex-grow: 2">
+                    <h3 id="projects">Projects</h3>
+                    <div>
+                        <button type="button" class="collapsible" style="grid-column: 1">Project 1</button>
+                        <div class="content" style="grid-column: 1">
+                            <a href="./Link Placeholders/Project1Placeholder.html">
+                                <img src="./Photos/clipart house.jpg" alt="Project 1">
+                            </a>
+                        </div>
+                        <button type="button" class="collapsible" style="grid-column: 2">Project 2</button>
+                        <div class="content" style="grid-column: 2">
+                            <a href="./Link Placeholders/Project2Placeholder.html">
+                                <img src="./Photos/clipart cow.png" alt="Project 2">
+                            </a>
+                        </div>
                     </div>
                 </div>
-                <div> <!--contact info and link to LinkedIn-->
-                    <h3 id="Contact">Contact</h3>
+                <div style="flex-grow: 1">
+                    <h3 id="contact">Contact</h3>
                     <p>email: jimgrimes86@gmail.com</p>
                     <a href="./Link Placeholders/LinkedInPlaceholder.html">LinkedIn</a>
                 </div>

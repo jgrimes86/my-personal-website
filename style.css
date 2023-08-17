@@ -11,7 +11,6 @@ body {
   margin-bottom: 10px;
   margin-right: 10px;
   margin-left: 10px;
-  border: blue;
   border-width: 20px;
   background-color: lightgrey;
 }
@@ -20,6 +19,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  background-color: #4074F7;
 }
 
 #intro {
@@ -36,6 +36,14 @@ body {
 
 #intro div {
   width: 50%;
+}
+
+h1 {
+  font-size: 5em;
+}
+
+h2 {
+  font-size: 3em;
 }
 
 #linksSection {
